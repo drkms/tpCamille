@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function affiche(){
+            var a = document.getElementById("aff").value;
+            document.getElementById("aff2").innerText = "Bonjour "+ a+" , vous êtes bien matinale";
+        }
+    </script>
+</head>
+<body>
+    yo l'équipe
+
+<input type="text" id="aff">
+<input type="button" value="submit" onclick="affiche()">
+<h1 id="aff2">=></h1>
+</body>
+</html>
